@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
 
-*, html, body{
+*,
+html,
+body {
   box-sizing: border-box;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
 
-.tabled{
+.tabled {
   width: 70%;
 }
 
 .table-ujian-main td {
-    max-width: 300px;
-    /* offset:; */
+  max-width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-
-
 
 div.dataTables_processing {
   position: absolute;
@@ -81,7 +83,6 @@ table.dataTable thead td,
 table.dataTable tfoot th,
 table.dataTable tfoot td {
   text-align: center;
-  
 }
 table.dataTable thead th.dt-head-left,
 table.dataTable thead td.dt-head-left,
@@ -142,7 +143,7 @@ table.dataTable {
   border-collapse: separate;
   border-spacing: 0;
   text-align: center;
-  font-family: 'IBM Plex Mono';
+  font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -150,12 +151,10 @@ table.dataTable {
   background-color: #ffffff;
   padding: 12px;
   border-radius: 16px;
-  
 }
 table.dataTable thead th,
 table.dataTable tfoot th {
   font-weight: bold;
-  
 }
 table.dataTable thead th,
 table.dataTable thead td {
@@ -169,11 +168,10 @@ table.dataTable thead td:active {
 table.dataTable tfoot th,
 table.dataTable tfoot td {
   padding: 10px 10px 6px 10px;
- 
 }
 
 table.dataTable tbody tr {
-  background-color:white;
+  background-color: white;
 }
 table.dataTable tbody tr.selected > * {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.9);
@@ -239,7 +237,7 @@ table.dataTable td {
 }
 .dataTables_wrapper .dataTables_length {
   position: relative;
-  font-family: 'IBM Plex Mono';
+  font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -247,7 +245,7 @@ table.dataTable td {
   left: 250px;
   color: #313131;
   top: 0px;
- 
+
   background-color: transparent;
 }
 
@@ -275,8 +273,8 @@ table.dataTable td {
   line-height: 13px;
   color: #313131;
   width: 78px;
-height: 13px;
-top: -30px;
+  height: 13px;
+  top: -38px;
 }
 .dataTables_wrapper .dataTables_paginate {
   float: left;
@@ -292,7 +290,6 @@ top: -30px;
   color: #313131;
   width: 300px;
   top: -52px;
- 
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button {
   box-sizing: border-box;
@@ -312,14 +309,14 @@ top: -30px;
   color: #ffffff;
   border: none;
   background-color: #57b98a;
-  background: #57B98A;
+  background: #57b98a;
   font-family: "IBM Plex Mono";
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
   cursor: default;
-  color: #57B98A !important;
+  color: #57b98a !important;
   border: 1px solid transparent;
   background: transparent;
   box-shadow: none;
@@ -453,8 +450,6 @@ top: -30px;
   }
 }
 
-
-
 /*style for table data camaba dashbord*/
 
 .heading {
@@ -472,7 +467,7 @@ h1 {
 
 .outer-wrapper {
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-right: 20px;
   border-radius: 4px;
   max-width: fit-content;
@@ -487,7 +482,6 @@ h1 {
   margin-top: 22px;
   margin: 15px;
   padding-bottom: 20px;
-  
 }
 
 table {
@@ -495,7 +489,6 @@ table {
   border: none;
   border-collapse: separate;
   border-spacing: 0px;
-  
 }
 
 .table-filter {
@@ -507,14 +500,14 @@ table th {
   position: sticky;
   top: 0px;
   background-color: #ffffff;
-  font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 18px;
-text-align: center;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
 
-color: #313131;
+  color: #313131;
 }
 
 table th,
@@ -527,48 +520,46 @@ table td {
 table td {
   text-align: center;
   padding-left: 20px;
-  font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-color: #313131;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #313131;
 }
 
-.set-filter{
+.set-filter {
   position: relative;
   float: right;
   top: 30px;
   right: 30px;
   border: transparent;
-  font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-text-align: right;
-color: #313131;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #313131;
 }
 
-.header_table{
-position: relative;
-top: 30px;
-left: 30px;
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 18px;
-color: #313131;
-
+.header_table {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #313131;
 }
 
 .table-modal td {
   text-align: start;
   padding: 0px;
-
 }
-.table-modal tr th{
+.table-modal tr th {
   background-color: transparent;
   padding: 0;
 }
@@ -580,12 +571,9 @@ color: #313131;
   margin-left: 0px;
   padding: 0px;
   margin-top: 0px;
- 
 }
 
-
-table td .btn-edit{
- 
+table td .btn-edit {
   margin-left: 5px;
   background: #ffffff;
 }
