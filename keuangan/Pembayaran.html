@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/sty.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <style></style>
+  </head>
+  <body>
+    <div class="sidebar-nav">
+      <div class="header">
+        <div class="list-item">
+          <a href="Dashboard.html" class="flex">
+            <img src="../img/logo.png" alt="" class="icon" />
+            <h3 class="description-header">
+              Admin PMB <span> ITSNU Pekalongan</span>
+            </h3>
+          </a>
+        </div>
+      </div>
+      <div class="sidebar-main">
+        <div class="list-item">
+          <a href="Dashboard-keuangan.html" class="flex">
+            <img src="../img/das.png" alt="" class="icon" />
+            <p class="description">Dashboard</p>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href="Data_Camaba-K.html" class="flex">
+            <img src="../img/pople.png" alt="" class="icon" />
+            <p class="description">Data Camaba</p>
+          </a>
+        </div>
+        <div class="list-item dropdown-btn actif">
+          <div class="flex">
+            <img src="../img/book.png" alt="" class="icon" />
+            <p class="description">Data Keuangan</p>
+            <i class="fa fa-caret-down"></i>
+          </div>
+        </div>
+        <div class="dropdown-container">
+          <a href="Data-Pembayaran.html" class="wh">Data Pembayaran</a><br />
+          <br />
+          <a href="Pembayaran.html" class="wh">Pembayaran</a>
+        </div>
+
+        <div class="list-item">
+          <a href="Laporan.html" class="flex">
+            <img src="../img/down.png" alt="" class="icon" />
+            <p class="description">Laporan</p>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href="#" class="flex">
+            <img src="../img/exit.png" alt="" class="icon" />
+            <p class="description">Keluar</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <div class="line-top">
+      <div class="list-item">
+        <img src="../img/search.png" class="icon" alt="" />
+        <input type="search" class="filter" />
+        <button class="icon2" type="button">
+          <img src="../img/alert.png" alt="" />
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <div class="item">
+          <span class="description-item">Data Keuangan</span>
+          <span class="item-header">768</span>
+        </div>
+      </div>
+    </div>
+    <div class="super-pay">
+      <div class="main-pay">
+        <div class="pay">
+          <div class="header">
+            <span>Masukan Nomer Pendaftaran</span>
+          </div>
+          <input type="text" class="input-nomer" />
+        </div>
+        <div class="modal-pay">
+          <div class="h1">
+            <div class="h2">
+              <span>Nama</span>
+              <b>:</b>
+              <p>Muhammad Arjun Arfani</p>
+            </div>
+            <div class="h2">
+              <span>Prodi 1</span>
+              <b class="b1">:</b>
+              <p>Fisika</p>
+            </div>
+            <div class="h2">
+              <span>prodi 2</span>
+              <b class="b1">:</b>
+              <p class="i">Teknologi Informasi</p>
+            </div>
+            <div class="h2">
+              <span>No. Telp</span>
+              <b class="o">:</b>
+              <p>085637934783</p>
+            </div>
+          </div>
+          <button><a href="#" id="linkModal">Bayar</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal" class="offmodal">
+      <div class="modal-container2">
+        <h2>Konfirmasi</h2>
+        <span class="close">
+          <a href="#"><b>X</b> </a>
+        </span>
+        <h3>Rincian Biaya</h3>
+        <span class="biaya">Biaya Pendaftaran</span>
+        <p>Rp. 200.000</p>
+        <div class="border"></div>
+        <span class="biaya2">Biaya Pendaftaran</span>
+        <span class="biaya-pendaftaran">Rp. 200.000</span>
+        <button><a href="#">Bayar</a></button>
+      </div>
+    </div>
+
+    <script src="../js/modal.js"></script>
+  </body>
+</html>

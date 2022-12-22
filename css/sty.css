@@ -292,6 +292,7 @@ input:focus {
   text-align: center;
   color: #313131;
 }
+
 .conten .description1 {
   position: absolute;
   width: 166px;
@@ -327,6 +328,19 @@ input:focus {
   left: 800px;
   top: 90px;
   font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #313131;
+}
+.conten .description12 {
+  position: absolute;
+  width: 166px;
+  height: 32px;
+  left: 40px;
+  top: 90px;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -518,8 +532,8 @@ input:focus {
   color: #313131;
 }
 .content-download .list-item .description {
-  position: absolute;
-  width: 93px;
+  position: relative;
+  width: 193px;
   height: 18px;
   left: 20px;
   top: 60px;
@@ -652,15 +666,119 @@ input:focus {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+}
+.modal-container2 {
+  width: 453px;
+  height: 518px;
+  background: #ffffff;
+  margin-top: 40px;
+  position: absolute;
+  z-index: 2;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  top: 300px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
   font-size: 0.8rem;
+}
+.modal-container2 .close {
+  text-align: center;
+  width: 50px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 13px;
+}
+.modal-container2 h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #313131;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 53px;
+}
+.modal-container2 .biaya {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #313131;
+  position: absolute;
+  top: 190px;
+  left: 53px;
+}
+.modal-container2 .biaya2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #313131;
+  position: absolute;
+  top: 240px;
+  left: 53px;
+}
+.modal-container2 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #313131;
+  position: absolute;
+  top: 172px;
+  left: 63%;
+}
+.modal-container2 .biaya-pendaftaran {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #313131;
+  position: absolute;
+  top: 240px;
+  left: 63%;
+}
+.modal-container2 button {
+  position: absolute;
+  width: 328px;
+  height: 37px;
+  left: 63px;
+  top: 448px;
+  background: #57b98a;
+  border-radius: 10px;
+  border: none;
+}
+.modal-container2 .border {
+  position: absolute;
+  width: 350px;
+  height: 0px;
+  left: 54px;
+  top: 224px;
+  border: 1px solid #a5a5a5;
+}
+.modal-container2 h2 {
+  margin: 15px;
+  position: fixed;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #313131;
+  left: 31px;
 }
 
 .modal-container header {
   border: 1px solid rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
-  width: 608px;
+  width: 600px;
   height: 65px;
   background-color: #ffffff;
 }
@@ -1058,4 +1176,136 @@ input {
 
 .card {
   width: 700px;
+}
+
+.fa-caret-down {
+  z-index: 10;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-container {
+  display: none;
+  background-color: #ffffff;
+  margin-left: 33px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.dropdown-container .wh {
+  color: #313131;
+
+  font-weight: 700;
+}
+.btn-ww {
+  text-decoration: none;
+  font-size: 20px;
+
+  display: block;
+  border: none;
+
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.main-pay {
+  width: 75%;
+  height: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 22%;
+  top: 28%;
+  border-radius: 16px;
+}
+
+.pay .header span {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  position: absolute;
+  color: #313131;
+  margin-left: 37%;
+  margin-top: 7%;
+}
+.pay .input-nomer {
+  background: #f4f4f4;
+  border: 1px solid #e9e9e9;
+  border-radius: 18px;
+  box-sizing: border-box;
+  width: 407px;
+  height: 40px;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+.main-pay .modal-pay {
+  position: relative;
+  width: 300px;
+  height: 309px;
+  left: 70px;
+  top: 50px;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+.h1 {
+  margin-left: 10px;
+}
+.h2 {
+  display: flex;
+  margin-top: -25px;
+  height: auto;
+
+  padding: 0px;
+}
+.h2 span {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  color: #313131;
+  left: 20px;
+  top: 50px;
+}
+
+.modal-pay b {
+  position: relative;
+  left: 25%;
+  top: 50px;
+}
+.modal-pay .b1 {
+  position: relative;
+  margin-left: -28px;
+  top: 50px;
+}
+.modal-pay p {
+  position: relative;
+  width: 200px;
+  left: 26%;
+  top: 35px;
+}
+.modal-pay .o {
+  position: relative;
+  margin-left: -38px;
+}
+.modal-pay .i {
+  position: relative;
+  width: 150px;
+  left: 26%;
+}
+.modal-pay button {
+  position: absolute;
+  width: 236px;
+  height: 28px;
+  left: 30px;
+  top: 250px;
+  background: #57b98a;
+  border-radius: 16px;
+  border: none;
 }
