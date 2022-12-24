@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="../css/sty.css" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -44,7 +43,7 @@
             <p class="description">Data Camaba</p>
           </a>
         </div>
-        <div class="list-item dropdown-btn actif">
+        <div class="list-item dropdown-btn">
           <div class="flex">
             <img src="../img/book.png" alt="" class="icon" />
             <p class="description">Data Keuangan</p>
@@ -57,7 +56,7 @@
           <a href="Pembayaran.html" class="wh">Pembayaran</a>
         </div>
 
-        <div class="list-item">
+        <div class="list-item actif">
           <a href="Laporan.html" class="flex">
             <img src="../img/down.png" alt="" class="icon" />
             <p class="description">Laporan</p>
@@ -85,63 +84,44 @@
     <div class="container">
       <div class="header">
         <div class="item">
-          <span class="description-item">Data Keuangan</span>
-          <span class="item-header5">768</span>
+          <span class="description-item45">Download Laporan</span>
         </div>
       </div>
     </div>
-    <div class="super-pay">
-      <div class="main-pay">
-        <div class="pay">
+    <div class="container-main">
+      <div class="main-container">
+        <div class="conten-b">
           <div class="header">
-            <span>Masukan Nomer Pendaftaran</span>
+            <span class="header_laporan">Download Laporan</span>
+            <div class="decoration"></div>
           </div>
-          <input type="text" class="input-nomer" />
+          <span class="description"
+            >Jumlah Camaba Telah Melakukan Pembayaran</span
+          >
+          <p class="item">345</p>
+          <button class="btn-item-conten">
+            <a href="">
+              <span class="btn-conten">Download</span>
+            </a>
+          </button>
         </div>
-        <div class="modal-pay">
-          <div class="h1">
-            <div class="h2">
-              <span>Nama</span>
-              <b>:</b>
-              <p>Muhammad Arjun Arfani</p>
-            </div>
-            <div class="h2">
-              <span>Prodi 1</span>
-              <b class="b1">:</b>
-              <p>Fisika</p>
-            </div>
-            <div class="h2">
-              <span>prodi 2</span>
-              <b class="b1">:</b>
-              <p class="i">Teknologi Informasi</p>
-            </div>
-            <div class="h2">
-              <span>No. Telp</span>
-              <b class="o">:</b>
-              <p>085637934783</p>
-            </div>
+        <div class="conten-b">
+          <div class="header">
+            <span class="header_laporan">Download Laporan</span>
+            <div class="decoration"></div>
           </div>
-          <button><a href="#" id="linkModal">Bayar</a></button>
+          <span class="description1"
+            >Jumlah Camaba Belum Melakukan pembayaran</span
+          >
+          <p class="item">345</p>
+          <button class="btn-item-conten">
+            <a href="">
+              <span class="btn-conten">Download</span>
+            </a>
+          </button>
         </div>
       </div>
     </div>
-
-    <div id="modal" class="offmodal">
-      <div class="modal-container2">
-        <h2>Konfirmasi</h2>
-        <span class="close">
-          <a href="#"><b>X</b> </a>
-        </span>
-        <h3>Rincian Biaya</h3>
-        <span class="biaya">Biaya Pendaftaran</span>
-        <p>Rp. 200.000</p>
-        <div class="border"></div>
-        <span class="biaya2">Biaya Pendaftaran</span>
-        <span class="biaya-pendaftaran">Rp. 200.000</span>
-        <button><a href="#">Bayar</a></button>
-      </div>
-    </div>
-
     <script src="../js/modal.js"></script>
   </body>
 </html>

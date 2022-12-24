@@ -70,6 +70,7 @@ body {
   align-items: center;
   gap: 14px;
   height: 40px;
+  cursor: pointer;
 }
 .sidebar-nav .sidebar-main .list-item .icon {
   width: 20px;
@@ -198,7 +199,21 @@ input:focus {
   width: 141px;
   height: 34px;
   left: 300px;
-  top: 136px;
+  top: 120px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #313131;
+}
+.container .header .item .description-item45 {
+  position: absolute;
+  width: 180px;
+  height: 34px;
+  left: 300px;
+  top: 120px;
   font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: 700;
@@ -218,7 +233,7 @@ input:focus {
   width: 90px;
   height: 28px;
   left: 1170px;
-  top: 175px;
+  top: 155px;
   color: #ffffff;
   cursor: pointer;
 
@@ -232,8 +247,8 @@ input:focus {
   position: absolute;
   width: 45px;
   height: 22px;
-  left: 440px;
-  top: 142px;
+  left: 420px;
+  top: 126px;
   background: #57b98a;
   border-radius: 16px;
   font-style: normal;
@@ -248,8 +263,24 @@ input:focus {
   position: absolute;
   width: 45px;
   height: 22px;
-  left: 460px;
-  top: 142px;
+  left: 445px;
+  top: 125px;
+  background: #57b98a;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+.container .header .item .item-header5 {
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  left: 440px;
+  top: 126px;
   background: #57b98a;
   border-radius: 16px;
   font-style: normal;
@@ -263,7 +294,7 @@ input:focus {
 .main-container {
   display: flex;
   margin-left: 280px;
-  margin-top: 160px;
+  margin-top: 130px;
   position: absolute;
 }
 .conten {
@@ -366,7 +397,7 @@ input:focus {
   width: 737px;
   height: 286px;
   left: 300px;
-  top: 343px;
+  top: 310px;
   background: #ffffff;
   border-radius: 18px;
 }
@@ -386,7 +417,7 @@ input:focus {
 .tabled {
   position: absolute;
   left: 270px;
-  top: 180px;
+  top: 160px;
 }
 
 #drop {
@@ -405,7 +436,7 @@ input:focus {
   float: none;
   position: absolute;
   left: 270px;
-  top: 175px;
+  top: 160px;
 }
 .label {
   font-style: normal;
@@ -514,7 +545,7 @@ input:focus {
   width: 230px;
   height: 286px;
   left: 1062px;
-  top: 343px;
+  top: 310px;
   background: #ffffff;
   border-radius: 18px;
 }
@@ -606,7 +637,7 @@ input:focus {
   width: 493px;
   height: 318px;
   left: 300px;
-  top: 643px;
+  top: 620px;
   background: #ffffff;
   border-radius: 18px;
 }
@@ -615,7 +646,7 @@ input:focus {
   width: 493px;
   height: 318px;
   left: 800px;
-  top: 643px;
+  top: 620px;
   background: #ffffff;
   border-radius: 18px;
 }
@@ -686,6 +717,7 @@ input:focus {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
   font-size: 0.8rem;
 }
+
 .modal-container2 .close {
   text-align: center;
   width: 50px;
@@ -995,7 +1027,7 @@ ul li {
   height: 650px;
   background-color: #ffffff;
   left: 22%;
-  top: 30%;
+  top: 25%;
   border-radius: 18px;
   padding-bottom: 20px;
 }
@@ -1216,7 +1248,7 @@ input {
   background-color: #ffffff;
   position: absolute;
   left: 22%;
-  top: 28%;
+  top: 26%;
   border-radius: 16px;
 }
 
